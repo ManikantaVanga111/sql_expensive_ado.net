@@ -98,9 +98,9 @@ namespace Sql_expensivtracker
                             Console.WriteLine("Wrong choice entered");
                             break;
                         }
-                        conn.Close();
+                       
                 }
-              
+               conn.Close();
             }
         }
        
